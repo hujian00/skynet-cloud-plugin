@@ -1,0 +1,46 @@
+<idea-plugin>
+  <id>com.skynet.hujian</id>
+  <name>skynet cloud</name>
+  <version>1.0</version>
+  <vendor email="782496007@qq.com" url="">hujian</vendor>
+
+  <description><![CDATA[
+      this is a tool for skynet upload.<br>
+      <em>skynet cloud</em>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      first version for skynet,to lean how to make a idea plugin<br>
+      <em>1.0.0</em>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+  <depends>com.intellij.modules.lang</depends>
+  <depends>com.intellij.modules.java</depends>
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+<project-components>
+  <component>
+    <interface-class>com.skynet.dto.SkynetConfigDto</interface-class>
+    <implementation-class>com.skynet.dto.SkynetConfigDto</implementation-class>
+  </component>
+</project-components>
+
+  <actions>
+    <group id="MyPlugin.SkynetMenu" text="_Skynet" description="Skynet menu">
+      <add-to-group group-id="MainMenu" anchor="last"  />
+      <action id="Myplugin.Textboxes" class="com.skynet.action.SkynetHostConfigAction" text="服务器配置" description="A test menu item" />
+      <action id="Myplugin.Textboxes2" class="com.skynet.action.SkynetTransferAction" text="版本部署" description="A test menu item" />
+    </group>
+  </actions>
+
+</idea-plugin>

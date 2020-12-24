@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="42bd81d8-99c0-4f22-90bb-6b885ad583eb" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1k5rWShhAWXjYDqPv7UcFQr9e0u" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\tuling\skynet-cloud-plugin\src\com\skynet\ui\deploy" />
+      <recent name="D:\tuling\skynet-cloud-plugin\src\com\skynet\ui\deploy\DeployForm" />
+      <recent name="D:\tuling\skynet-cloud-plugin\src\com\skynet\ui\codeSettingsForm" />
+      <recent name="D:\tuling\skynet-cloud-plugin\src\Mypackage" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.skynet.ui" />
+      <recent name="com.skynet.action" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\tuling\skynet-cloud-plugin\libs" />
+      <recent name="D:\tuling\skynet-cloud-plugin" />
+      <recent name="D:\tuling\skynet-cloud-plugin\src\com\skynet\ui\deploy" />
+      <recent name="D:\tuling\skynet-cloud-plugin\src\com\skynet\ui" />
+      <recent name="D:\tuling\skynet-cloud-plugin\src\com\skynet\until" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Plugin" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="skynet-cloud-plugin" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <RunnerSettings RunnerId="Debug with VisualVM">
+        <option name="visualVMId" value="27410940914200" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="skynet-cloud-plugin" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42bd81d8-99c0-4f22-90bb-6b885ad583eb" name="Default Changelist" comment="" />
+      <created>1605001324761</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605001324761</updated>
+      <workItem from="1605001326776" duration="7161000" />
+      <workItem from="1605059317845" duration="2168000" />
+      <workItem from="1605145161478" duration="1749000" />
+      <workItem from="1605164577556" duration="659000" />
+      <workItem from="1605166534552" duration="713000" />
+      <workItem from="1605262671086" duration="659000" />
+      <workItem from="1605595744583" duration="1577000" />
+      <workItem from="1605750296679" duration="11965000" />
+      <workItem from="1605771303924" duration="1824000" />
+      <workItem from="1605773439287" duration="7036000" />
+      <workItem from="1605836702209" duration="23078000" />
+      <workItem from="1605872975140" duration="3063000" />
+      <workItem from="1605919050138" duration="632000" />
+      <workItem from="1606095809797" duration="1141000" />
+      <workItem from="1606098629988" duration="29141000" />
+      <workItem from="1606715094567" duration="1831000" />
+      <workItem from="1606717405988" duration="272000" />
+      <workItem from="1606718486526" duration="1337000" />
+      <workItem from="1606723136068" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+        <watch expression="httpPost" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

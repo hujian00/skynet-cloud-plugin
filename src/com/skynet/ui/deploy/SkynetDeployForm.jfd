@@ -1,0 +1,136 @@
+JFDML JFormDesigner: "7.0.2.6.321" Java: "11.0.3" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.intellij.uiDesigner.core.GridLayoutManager ) {
+			"$columnCount": 3
+			"$rowCount": 3
+			"hGap": 5
+			"vGap": 5
+			"margin": new java.awt.Insets( 0, 5, 0, 0 )
+		} ) {
+			name: "contentPane"
+			"alignmentX": 0.5f
+			"alignmentY": 0.5f
+			"doubleBuffered": false
+			"inheritsPopupMenu": true
+			"maximumSize": new java.awt.Dimension( 345, 104 )
+			"minimumSize": new java.awt.Dimension( 945, 704 )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.intellij.uiDesigner.core.GridLayoutManager ) {
+				"$columnCount": 8
+				"$rowCount": 7
+			} ) {
+				name: "panel1"
+				"border": new javax.swing.border.TitledBorder( "图聆Skynet" )
+				"foreground": sfield java.awt.Color darkGray
+				auxiliary() {
+					"JavaCodeGenerator.variableLocal": true
+				}
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "停止服务"
+					auxiliary() {
+						"JavaCodeGenerator.variableLocal": true
+					}
+				}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+					"row": 4
+					"anchor": 4
+					"hSizePolicy": 0
+					"vSizePolicy": 0
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"text": "启动服务"
+					auxiliary() {
+						"JavaCodeGenerator.variableLocal": true
+					}
+				}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+					"row": 5
+					"anchor": 4
+					"hSizePolicy": 0
+					"vSizePolicy": 0
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "startContent"
+				}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+					"column": 1
+					"row": 5
+					"colSpan": 6
+					"anchor": 8
+					"fill": 1
+					"hSizePolicy": 6
+					"vSizePolicy": 0
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "stopContent"
+				}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+					"column": 1
+					"row": 4
+					"colSpan": 6
+					"anchor": 8
+					"fill": 1
+					"hSizePolicy": 6
+					"vSizePolicy": 0
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"text": "上传版本包"
+					auxiliary() {
+						"JavaCodeGenerator.variableLocal": true
+					}
+				}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+					"row": 3
+					"anchor": 4
+					"hSizePolicy": 0
+					"vSizePolicy": 0
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "upload"
+				}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+					"column": 1
+					"row": 3
+					"colSpan": 6
+					"anchor": 8
+					"fill": 1
+					"hSizePolicy": 6
+					"vSizePolicy": 0
+					"preferredSize": new java.awt.Dimension( 150, -1 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label7"
+					"text": "项目构建"
+					auxiliary() {
+						"JavaCodeGenerator.variableLocal": true
+					}
+				}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+					"anchor": 4
+					"hSizePolicy": 0
+					"vSizePolicy": 0
+				} )
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "scrollPane1"
+					add( new FormComponent( "javax.swing.JTextArea" ) {
+						name: "buildLog"
+						"tabSize": 10
+					} )
+				}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+					"column": 1
+					"colSpan": 7
+					"anchor": 8
+					"fill": 1
+					"hSizePolicy": 6
+					"vSizePolicy": 0
+					"rowSpan": 3
+					"minimumSize": new java.awt.Dimension( 700, 500 )
+				} )
+			}, new FormLayoutConstraints( class com.intellij.uiDesigner.core.GridConstraints ) {
+				"colSpan": 3
+				"fill": 3
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 550, 585 )
+		} )
+	}
+}
